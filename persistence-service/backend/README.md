@@ -89,26 +89,32 @@ This command will kill the running container and remove it.
 docker rm -f persistence
 ```
 
-API Endpoints:
+**API Endpoints:**
+
 Location: /src/api
 Description: Place all your API route handlers and related logic here.
 
-Entities: 
+**Entities: **
+
 Location: /src/entities
 Description: Define all your data entities or models in this folder.
 
-Interfaces:
+**Interfaces:**
+
 Location: /src/interfaces
 Description: Store all filtering options and data connector interfaces in this directory.
 
-Migration:
+**Migration:**
+
 Location: /src/migration
 Description: Manage your dummy data migrations or any database schema changes here.
 
-Repositories:
+**Repositories:**
+
 Location: /src/repositories
 Description: Place repository classes that handle data access and interactions with your entities in this folder.
 
-Utilities:
+**Utilities:**
+
 Location: /src/utils
 Description: Include utility functions and helper files, such as result.ts, here.
