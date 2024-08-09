@@ -29,7 +29,7 @@
     "outputDirectory": "results/"
   },
   "devDependencies": {
-    "typescript": "^5.5.4"
+    "@types/jest": "^29.5.12"
   }
 
 }

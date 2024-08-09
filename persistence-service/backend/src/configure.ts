@@ -11,7 +11,7 @@ import OrderItem from "./entities/orderItem";
 
 export const postgresDataSource = new DataSource({
   type: "postgres",
-  host: "localhost",
+  host: process.env.DB_HOST || "localhost",
   port: 5432,
   username: process.env.POSTGRES_USER,
   password: process.env.POSTGRES_PASSWORD,
