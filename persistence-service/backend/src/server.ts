@@ -15,6 +15,8 @@ import { PhotoRepositoryDataConnector } from './repository/photoRepositoryDataCo
     const app = express();
     app.use(cors());
     app.use(json());
+    
+    console.log(process.env.DB_HOST);
 
     const datasource = await postgresDataSource.initialize();
 
