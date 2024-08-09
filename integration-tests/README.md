@@ -115,3 +115,23 @@ docker-compose up -d
 ```bash
 docker-compose up -d --build
 ```
+
+Navigate to the Integration Tests Folder:
+
+Open your terminal or command prompt.
+
+Change directory to the /integration-tests/src folder
+
+List Integration Test Files:
+
+Integration tests are commonly identified by specific file extensions or naming conventions. If your integration tests have a .test.ts extension
+
+Run Integration Tests:
+
+To ensure that these tests are executed, you can use a test runner command appropriate for your setup
+
+```bash
+npm run test
+```
+
+Ensure your test runner is configured to look for test files in the /integration-tests/src folder
