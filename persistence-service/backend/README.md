@@ -94,7 +94,7 @@ docker rm -f persistence
 Location: /src/api
 Description: Place all your API route handlers and related logic here.
 
-**Entities: **
+**Entities:**
 
 Location: /src/entities
 Description: Define all your data entities or models in this folder.
