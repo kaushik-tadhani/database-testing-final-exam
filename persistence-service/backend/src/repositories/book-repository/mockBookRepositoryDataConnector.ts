@@ -27,7 +27,8 @@ export class MockBookRepositoryDataConnector implements DataConnector<Book, Book
                 books:[]
             },
             author_id: 1,
-            publisher_id: 1
+            publisher_id: 1,
+            reviews: 0
         }
     ]; 
 
@@ -44,7 +45,8 @@ export class MockBookRepositoryDataConnector implements DataConnector<Book, Book
         const newId = 2;
         let savedBook: Book = {
             ...entity,
-            book_id: newId
+            book_id: newId,
+            reviews: 0
         };
         this.mockBooks.push(savedBook);
         return savedBook;

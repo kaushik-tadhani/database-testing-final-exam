@@ -62,7 +62,8 @@ describe('Book Api', () => {
                     books:[]
                 },
                 author_id: 1,
-                publisher_id: 1
+                publisher_id: 1,
+                reviews: 0
             });
     });
 
@@ -92,7 +93,8 @@ describe('Book Api', () => {
                     books:[]
                 },
                 author_id: 1,
-                publisher_id: 1
+                publisher_id: 1,
+                reviews: 0
             }]);
     });
 
@@ -132,7 +134,8 @@ describe('Book Api', () => {
                     books:[]
                 },
                 author_id: 1,
-                publisher_id: 1
+                publisher_id: 1,
+                reviews: 0
             });
     });
 
@@ -146,6 +149,7 @@ describe('Book Api', () => {
         book.price = 19;
         book.author_id = 1;
         book.publisher_id = 1;
+        book.reviews = 0;
 
         let savedBook = await bookApi.put(book);
         
@@ -172,7 +176,8 @@ describe('Book Api', () => {
                     books:[]
                 },
                 author_id: 1,
-                publisher_id: 1
+                publisher_id: 1,
+                reviews: 0
             });
     });
 
