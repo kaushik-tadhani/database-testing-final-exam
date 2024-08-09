@@ -1,7 +1,6 @@
-import { Photo } from "../entities/photo";
-import DataConnector from "../interfaces/dataConnector";
-import PhotoFilteringOptions from "../interfaces/photoFilteringOptions";
-import Result from "../utils/result";
+import { Photo } from "../../entities/photo";
+import DataConnector from "../../interfaces/dataConnector";
+import PhotoFilteringOptions from "../../interfaces/photoFilteringOptions";
 
 export class MockPhotoRepositoryDataConnector implements DataConnector<Photo, PhotoFilteringOptions> {
     

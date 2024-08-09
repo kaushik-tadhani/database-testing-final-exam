@@ -1,8 +1,7 @@
-import { DataSource } from "typeorm";
-import { Photo } from "../entities/photo";
-import DataConnector from "../interfaces/dataConnector";
-import FilteringOptions from "../interfaces/photoFilteringOptions";
-import Result from "../utils/result";
+import { Photo } from "../../entities/photo";
+import DataConnector from "../../interfaces/dataConnector";
+import FilteringOptions from "../../interfaces/photoFilteringOptions";
+import Result from "../../utils/result";
 
 export default class PhotoRepository {
     #dataConnector: DataConnector<Photo, FilteringOptions>

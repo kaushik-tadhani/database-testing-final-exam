@@ -1,8 +1,7 @@
-import { DataSource, DeleteResult } from "typeorm";
-import DataConnector from "../interfaces/dataConnector";
-import { Photo } from "../entities/photo";
-import PhotoFilteringOptions from "../interfaces/photoFilteringOptions";
-import Result from "../utils/result";
+import { DataSource } from "typeorm";
+import DataConnector from "../../interfaces/dataConnector";
+import { Photo } from "../../entities/photo";
+import PhotoFilteringOptions from "../../interfaces/photoFilteringOptions";
 
 export class PhotoRepositoryDataConnector implements DataConnector<Photo, PhotoFilteringOptions> {
     #dataSource: DataSource;

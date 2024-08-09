@@ -1,5 +1,4 @@
-import { Photo } from "../entities/photo";
-import DataConnector from "../interfaces/dataConnector";
+import { Photo } from "../../entities/photo";
 import { MockPhotoRepositoryDataConnector } from "./mockPhotoRepositoryDataConnector";
 import PhotoRepository from "./photoRepository";
 
